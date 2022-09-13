@@ -22,7 +22,7 @@ const html = document.querySelector('.html');
 const css = document.querySelector('.css');
 const js = document.querySelector('.js');
 const sass = document.querySelector('.sass');
-const tw = document.querySelector('.tw');
+const react = document.querySelector('.react');
 const wp = document.querySelector('.wp');
 const git = document.querySelector('.git');
 const hub = document.querySelector('.hub');
@@ -51,9 +51,9 @@ sass.addEventListener('mouseenter', () => {
     É uma linguagem de folhas de estilo.<br>Basicamente o Sass potencializa o CSS.
     `
 })
-tw.addEventListener('mouseenter', () => {
-    texto.innerHTML = `Tailwind <br><br>
-    É um framework CSS que oferece a possibilidade de você criar layouts usando uma estrutura de CSS pronta.
+react.addEventListener('mouseenter', () => {
+    texto.innerHTML = `react <br><br>
+    O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.
     `
 })
 wp.addEventListener('mouseenter', () => {
